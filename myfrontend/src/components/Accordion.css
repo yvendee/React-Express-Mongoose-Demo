@@ -1,0 +1,64 @@
+
+
+.accordion{
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+	transition: background-color 0.6s ease; 
+}
+
+.accordion_section {
+	display:flex;
+	flex-direction: column;
+}
+
+.accordion:hover,
+.active {
+	background-color: #ccc; 
+}
+
+.accordion_title {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+
+.accordion_icon {
+	margin-left: auto;
+	transition: tranform 0.6s ease;
+}
+
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+
+.accordion_content_fold {
+	background-color: white;
+	overflow: hidden;
+	transition:  max-height 0.6s ease;
+	max-height: 0;
+
+}
+.accordion_content_unfold {
+	background-color: white;
+	overflow: hidden;
+	transition:  max-height 0.6s ease;
+	/*max-height: 100;*/
+
+}
+
+
+.accordion_text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 18px;
+}

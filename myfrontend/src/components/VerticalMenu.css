@@ -1,0 +1,38 @@
+
+.kd-vertical-menu {
+  background-color: #4CAF50;
+  color: white;
+  /*height: 950px; */
+  /*overflow-y: auto;*/
+  /*white-space: nowrap;*/
+}
+
+.kd-vertical-menu a {
+  background-color: #ffff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /*padding: 6px 8px 6px 16px;*/
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  /*height: 950px; */ 
+}
+
+.kd-vertical-menu a:hover {
+  background-color: rgb(36, 36, 255);
+  color: white;
+}
+
+.kd-vertical-menu a.active {
+  background-color: rgb(36, 36, 255);
+  color: white;
+}
+
+.kd-arial {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*font-family: 'Roboto';*/
+  font-family:"Segoe UI",Arial;
+  font-weight: bold;
+}
